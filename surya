@@ -11,11 +11,15 @@ class abc
   {
      abc.add();
    }
+    public static void main(String[] args)
+  {
+     abc.add();
+   }
 static void add()
  {
     int a=40;
     int b=70;
-    int c=a-b;
+    int c=a+b;
     System.out.println(c);
  }
 }
